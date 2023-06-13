@@ -26,6 +26,25 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="ConsoleEngineCore.h" />
+    <ClInclude Include="ConsoleMath.h" />
+    <ClInclude Include="ConsoleObject.h" />
+    <ClInclude Include="ConsoleScreen.h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="Part.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="ConsoleEngineCore.cpp" />
+    <ClCompile Include="ConsoleMath.cpp" />
+    <ClCompile Include="ConsoleObject.cpp" />
+    <ClCompile Include="ConsoleScreen.cpp" />
+    <ClCompile Include="Head.cpp" />
+    <ClCompile Include="Part.cpp" />
+    <ClCompile Include="Snake.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -181,26 +200,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.cpp" />
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp" />
-    <ClCompile Include="Snake_Project.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.h" />
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.h" />
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.h" />
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.h" />
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.h" />
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.h" />
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

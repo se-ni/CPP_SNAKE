@@ -10,55 +10,52 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Snake_Project.cpp">
-      <Filter>Contents</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.cpp">
-      <Filter>Contents</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.cpp">
-      <Filter>Contents</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.cpp">
-      <Filter>Contents</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp">
-      <Filter>Contents</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.cpp">
+    <ClInclude Include="ConsoleScreen.h">
       <Filter>Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.cpp">
+    </ClInclude>
+    <ClInclude Include="ConsoleEngineCore.h">
       <Filter>Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.cpp">
+    </ClInclude>
+    <ClInclude Include="ConsoleMath.h">
       <Filter>Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.cpp">
+    </ClInclude>
+    <ClInclude Include="ConsoleObject.h">
       <Filter>Engine</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Part.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.h">
+    <ClCompile Include="Body.cpp">
       <Filter>Contents</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.h">
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
       <Filter>Contents</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.h">
+    </ClCompile>
+    <ClCompile Include="Part.cpp">
       <Filter>Contents</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.h">
+    </ClCompile>
+    <ClCompile Include="ConsoleScreen.cpp">
       <Filter>Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.h">
+    </ClCompile>
+    <ClCompile Include="ConsoleObject.cpp">
       <Filter>Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.h">
+    </ClCompile>
+    <ClCompile Include="ConsoleMath.cpp">
       <Filter>Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.h">
+    </ClCompile>
+    <ClCompile Include="ConsoleEngineCore.cpp">
       <Filter>Engine</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
