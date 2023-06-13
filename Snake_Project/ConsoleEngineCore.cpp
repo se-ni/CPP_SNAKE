@@ -1,5 +1,6 @@
 #include "ConsoleEngineCore.h"
 #include "ConsoleScreen.h"
+#include "Head.h"
 
 bool ConsoleEngineCore::IsEngineProcess = true;
 std::list<ConsoleObject*> ConsoleEngineCore::Objects;
@@ -12,7 +13,9 @@ ConsoleEngineCore::ConsoleEngineCore()
 
 ConsoleEngineCore::~ConsoleEngineCore()
 {
+
 }
+
 
 
 void ConsoleEngineCore::EngineStart(const int4& _Scale)
