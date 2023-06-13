@@ -21,15 +21,31 @@ void Head::Tick(float _Time)
     switch (Select)
     {
     case 'a':
+        if (prevSelect == 'd')
+        {
+            return;
+        }
         MovePos = int4::Left;
         break;
     case 'd':
+        if (prevSelect == 'a')
+        {
+            return;
+        }
         MovePos = int4::Right;
         break;
     case 'w':
+        if (prevSelect == 's')
+        {
+            return;
+        }
         MovePos = int4::Up;
         break;
     case 's':
+        if (prevSelect == 'w')
+        {
+            return;
+        }
         MovePos = int4::Down;
         break;
     case 'q':
