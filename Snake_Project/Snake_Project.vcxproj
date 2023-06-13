@@ -182,7 +182,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.cpp" />
+    <ClCompile Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp" />
     <ClCompile Include="Snake_Project.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.h" />
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.h" />
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.h" />
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.h" />
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.h" />
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.h" />
+    <ClInclude Include="..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
